@@ -1,8 +1,9 @@
 body {
-    background-image: url("vuori.jpg");
+    background-color: black;
+    text-align: center;
   }
   
-  h1 {
+  h1{
     color: rgb(255, 0, 0);
     text-align: center;
   }
@@ -10,7 +11,7 @@ body {
     font-family: verdana;
     font-size: 20px;
   }
-  ul,ol{
+  ul,ol,tr{
       color: red;
       font-family: initial;
       font-size: 20px;

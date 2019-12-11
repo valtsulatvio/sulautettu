@@ -1,11 +1,24 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="melkein.css">
+    <link rel="stylesheet" type="text/css" href="melkein.css" href="jquery.js">
     <title>
         Sivu 4
     </title>
 </head>
+<p id="demo"></p>
+
+<body>
+    <script>
+        var text = "";
+        var i;
+        for (i = 0; i < 5; i++) {
+            text += "The number is " + i + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+    <button><a href="file:///C:\Users\valtteri\Documents\GitHub\sulautettu\sivu1.html">Takaisin</a></button>
+</body>
 
 <body>
     <button><a href="file:///C:\Users\valtteri\Documents\GitHub\sulautettu\sivu1.html">Takaisin</a></button>

@@ -1,13 +1,43 @@
 <html>
 
 <head>
+    <title>
+        Sivu 5
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="melkein.css">
     <title>Sivu Viisi</title>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({
+                    left: '250px',
+                    opacity: '0.5',
+                    height: '150px',
+                    width: '150px'
+                });
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({
+                    left: '20px',
+                    opacity: '0.5',
+                    height: '100px',
+                    width: '100px'
+                });
+            });
+        });
+    </script>
 </head>
 
 <body>
     <h1>Moi</h1>
-    <button onclick="location.replace('sivu1.html')"> Takaisin</button>
+    <div style="background:#7e0000;height:100px;width:100px;position:absolute;"></div>
+    <button class="btn success" >Kyl</button>
+    <button class="btn danger" onclick="location.replace('sivu1.html')"> Takaisin</button>
 </body>
 
 </html>

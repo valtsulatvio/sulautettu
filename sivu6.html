@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>
+        Sivu 6
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="melkein.css">
+    <script>
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideToggle("slow");
+            });
+        });
+    </script>
+    <style> 
+
+        </style>
+</head>
+
+<body>
+    <div id="flip">Paina</div>
+    <div id="panel">En osannu laittaa tätä sivuun 5 ilman et se sekoo</div>
+    <button class="btn danger" onclick="location.replace('sivu1.html')"> Takaisin</button>
+</body>
+
+</html>

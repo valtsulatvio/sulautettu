@@ -1,22 +1,27 @@
 body {
-    background-color: rgb(112, 112, 112);
+    background-color:#98b0b1;
     text-align: center;
     color: red;
   }
   
-  h1{
-    color: rgb(255, 0, 0);
+  h2{
+    color: rgb(0, 0, 255);
     text-align: center;
+    font-size: 50px;
+  }
+  h1{
+    color: green;
+    text-align: center;
+    font-size: 50px;
   }
   p {
     font-family: verdana;
     font-size: 20px;
   }
-  ul,ol,tr{
-      color: red;
+  ul,tr{
+      color: green;
       font-family: initial;
-      font-size: 20px;
-      text-align: center ;
+      font-size: 40px;
   }
   #panel, #flip {
     padding: 5px;
@@ -90,4 +95,15 @@ body {
   
   .default:hover {
     background: #e7e7e7;
+  }
+  ul {
+    vertical-align: center;
+    list-style: inside;
+  }
+  ol {
+    color: blue;
+    vertical-align: center;
+    list-style: inside;
+    font-size: 40px;
+    font-family: initial;
   }

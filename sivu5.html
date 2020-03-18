@@ -1,43 +1,25 @@
 <html>
 
 <head>
-    <title>
-        Sivu 5
-    </title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Contact info</title>
     <link rel="stylesheet" type="text/css" href="melkein.css">
-    <title>Sivu Viisi</title>
-    <script>
-        $(document).ready(function () {
-            $("button").click(function () {
-                $("div").animate({
-                    left: '250px',
-                    opacity: '0.5',
-                    height: '150px',
-                    width: '150px'
-                });
-            });
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("button").click(function () {
-                $("div").animate({
-                    left: '20px',
-                    opacity: '0.5',
-                    height: '100px',
-                    width: '100px'
-                });
-            });
-        });
-    </script>
 </head>
 
 <body>
-    <h1>Moi</h1>
-    <div style="background:#7e0000;height:100px;width:100px;position:absolute;"></div>
-    <button class="btn success" >Kyl</button>
-    <button class="btn danger" onclick="location.replace('index.html')"> Takaisin</button>
+    <h1>Kontaktitiedot</h1>
+    <ul>
+        <li> Puh: +358452769333</li>
+        <li> Sposti: valtteri.latvio@gmail.com</li>
+        <li> Osoite: Ruskokuja 7 B, 01620 Vantaa, Martinlaakso</li>
+    </ul>
+    <h2>Contact info</h2>
+    <ol>
+        <li> Phone number: +358452769333</li>
+        <li> Email: valtteri.latvio@gmail.com</li>
+        <li>Address: Ruskokuja 7 B, 01620 Vantaa, Martinlaakso</li>
+    </ol>
+
+    <button class="btn success" onclick="location.replace('index.html')"> Takaisin,Back</button>
 </body>
 
 </html>
